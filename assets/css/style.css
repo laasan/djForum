@@ -51,7 +51,7 @@ h1{
 .subforum-column{
     padding: 10px;
     margin:4px;
-    border-radius: 5px;
+    border-radius: 10px;
     background-color:#111314;
 }
 
@@ -181,14 +181,21 @@ header{
 }
 
 @font-face {
-    font-family:aquire;
-    src:url(aquire.otf);
+    font-family: 'Knight Anomaly';
+    src: url('../fonts/KnightAnomaly.eot');
+    src: local('KnightAnomaly'),
+        url('../fonts/KnightAnomaly.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/KnightAnomaly.woff2') format('woff2'),
+        url('../fonts/KnightAnomaly.woff') format('woff'),
+        url('../fonts/KnightAnomaly.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 
 .brand{
-    font-size:60px;
+    font-size:80px;
     display: inline-block;
-    font-family:aquire;
+    font-family: Knight Anomaly;
 }
 
 /*Navbar for the smartphones*/
@@ -273,7 +280,7 @@ header{
 footer{
     margin-top: 20px;
     padding: 20px;
-    background-color:  #52057b;
+    background-color:  #27033b;
     display: block;
     text-align: center;
 }
