@@ -182,12 +182,12 @@ header{
 
 @font-face {
     font-family: 'Knight Anomaly';
-    src: url('../fonts/KnightAnomaly.eot');
+    src: url('KnightAnomaly.eot');
     src: local('KnightAnomaly'),
-        url('../fonts/KnightAnomaly.eot?#iefix') format('embedded-opentype'),
-        url('../fonts/KnightAnomaly.woff2') format('woff2'),
-        url('../fonts/KnightAnomaly.woff') format('woff'),
-        url('../fonts/KnightAnomaly.ttf') format('truetype');
+        url('KnightAnomaly.eot?#iefix') format('embedded-opentype'),
+        url('KnightAnomaly.woff2') format('woff2'),
+        url('KnightAnomaly.woff') format('woff'),
+        url('KnightAnomaly.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
