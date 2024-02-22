@@ -24,7 +24,7 @@ class Author(models.Model):
     def save(self, *args, **kwargs):
         if not self.slug:
             self.slug = slugify(self.fullname)
-            super(Author, self).save(*args, **kwargs)
+        super(Author, self).save(*args, **kwargs)
 
 
 class Category(models.Model):
@@ -40,7 +40,7 @@ class Category(models.Model):
     def save(self, *args, **kwargs):
         if not self.slug:
             self.slug = slugify(self.title)
-            super(Category, self).save(*args, **kwargs)
+        super(Category, self).save(*args, **kwargs)
 
 
 class Post(models.Model):
@@ -58,7 +58,7 @@ class Post(models.Model):
     def save(self, *args, **kwargs):
         if not self.slug:
             self.slug = slugify(self.title)
-            super(Post, self).save(*args, **kwargs)
+        super(Post, self).save(*args, **kwargs)
 
     def __str__(self):
         return self.title
